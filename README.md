@@ -16,6 +16,9 @@ Following data types are supported:
 
 ## Changelog
 
+### 0.0.x (2020-01-09)
+* (klaus-ba) xxx
+
 ### 0.0.1 (2016-05-13)
 * (bluefox) support of server (actual no authentication)
 
