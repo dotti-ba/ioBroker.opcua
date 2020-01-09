@@ -1,0 +1,60 @@
+{
+  "common": {
+    "name": "opcua",
+    "version": "0.1.0",
+    "title": "OPC-UA Server Adapter (klaus-ba)",
+    "desc": {
+      "en": "The adapter allows to use OPC-UA server and client in ioBroker",
+      "de": "Adapter ermöglicht die Benutzung von OPC-UA Server/Client mit ioBroker",
+      "ru": "Драйвер позволяет использовать OPC-UA сервер или клиент с ioBroker"
+    },
+    "authors": [
+      "bluefox <dogafox@gmail.com>",
+	  "dotti-ba <dr.dotti@gmx.de>"
+    ],
+    "license": "CC-BY-NC-4.0",
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "messagebox": true,
+    "readme": "https://github.com/ioBroker/ioBroker.opcua/blob/master/README.md",
+    "loglevel": "info",
+    "icon": "opcua.png",
+    "keywords": [
+      "OPC",
+      "OPC UA"
+    ],
+    "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.opcua/master/admin/opcua.png",
+    "type": "communication",
+    "config": {
+      "width": 800,
+      "height": 850,
+      "minWidth": 400,
+      "minHeight": 400
+    },
+    "installedFrom": "https://github.com/ioBroker/ioBroker.opcua/tarball/abffb005f8aa31a7613feac0bcf2f276f0dd0d66"
+  },
+  "native": {
+    "type": "server",
+    "name": "",
+    "port": 4334,
+    "certPublic": "",
+    "certPrivate": "",
+    "certChained": "",
+    "patterns": "javascript.0.*",
+    "sendAckToo": true,
+    "leEnabled": false,
+    "leUpdate": false,
+    "leCheckPort": 80
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    }
+  ]
+}

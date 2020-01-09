@@ -1,0 +1,82 @@
+{
+  "_from": "https://github.com/ioBroker/ioBroker.opcua/tarball/abffb005f8aa31a7613feac0bcf2f276f0dd0d66",
+  "_id": "iobroker.opcua@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-rR2OseGILxnzuMSpSIZh31r2davoYPvXmnYr7X9LhavA7nIQb7N8Ary1IKUmacbj2dodwGbC5uQgrKgYSvw3WQ==",
+  "_location": "/iobroker.opcua",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://github.com/ioBroker/ioBroker.opcua/tarball/abffb005f8aa31a7613feac0bcf2f276f0dd0d66",
+    "rawSpec": "https://github.com/ioBroker/ioBroker.opcua/tarball/abffb005f8aa31a7613feac0bcf2f276f0dd0d66",
+    "saveSpec": "https://github.com/ioBroker/ioBroker.opcua/tarball/abffb005f8aa31a7613feac0bcf2f276f0dd0d66",
+    "fetchSpec": "https://github.com/ioBroker/ioBroker.opcua/tarball/abffb005f8aa31a7613feac0bcf2f276f0dd0d66"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://github.com/ioBroker/ioBroker.opcua/tarball/abffb005f8aa31a7613feac0bcf2f276f0dd0d66",
+  "_shasum": "cf5f4d757728e416ee403938ffdb3e8906793488",
+  "_spec": "https://github.com/ioBroker/ioBroker.opcua/tarball/abffb005f8aa31a7613feac0bcf2f276f0dd0d66",
+  "_where": "C:\\ioBroker\\KlausTestHpSpectre",
+  "author": {
+    "name": "bluefox",
+    "email": "dogafox@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dotti-ba/ioBroker.opcua/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@iobroker/adapter-core": "^1.0.3",
+    "@types/yargs": "^13.0.3",
+    "async": "^3.1.0",
+    "colors": "^1.4.0",
+    "easy-table": "^1.1.1",
+    "exit": "^0.1.2",
+    "hexy": "^0.3.0",
+    "node-opcua": "^2.4.1",
+    "node-opcua-assert": "^2.3.0",
+    "node-opcua-pki": "^1.5.4",
+    "node-opcua-server-configuration": "^2.4.1",
+    "readline": "^1.3.0",
+    "sprintf-js": "^1.1.2",
+    "treeify": "^1.1.0",
+    "underscore": "^1.9.1",
+    "yargs": "^15.0.1"
+  },
+  "deprecated": false,
+  "description": "The adapter provide a OPC-UA server and client in ioBroker.",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-http": "^2.2.0",
+    "grunt-jscs": "^3.0.1",
+    "grunt-replace": "^1.0.1",
+    "mocha": "^4.1.0"
+  },
+  "homepage": "https://github.com/dotti-ba/ioBroker.opcua",
+  "keywords": [
+    "iobroker",
+    "OPC",
+    "OPC UA"
+  ],
+  "license": "CC-BY-NC-4.0",
+  "licenses": [
+    {
+      "type": "CC-BY-NC-4.0",
+      "url": "https://github.com/ioBroker/ioBroker.opcua/blob/master/LICENSE"
+    }
+  ],
+  "main": "main.js",
+  "name": "iobroker.opcua",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioBroker/ioBroker.opcua.git"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "version": "0.1.1"
+}
